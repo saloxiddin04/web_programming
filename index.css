@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	border-bottom: 3px solid crimson;
+}
+
+.navbar {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .navbar-ul {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .navbar-ul {
+	list-style: none;
+}
+
+.navbar .navbar-ul li {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-ul li a.active {
+	color: #fff;
+}
+
+.navbar .navbar-ul a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	padding: 20px 10px;
+	position: relative;
+	transition: all 0.3s;
+}
+
+.navbar .navbar-ul li a.active::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: crimson;
+	transform: skew(-20deg);
+	z-index: -1;
+	transition: all 0.3s ease;
+}
+
+
+/* --------- main --------- */
+.main {
+	position: relative;
+	width: 100%;
+	height: 90vh;
+	padding: 50px;
+	background: url("./images/bg.jpg") no-repeat center / cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+}
+
+.main::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+
+.main .body {
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.main .body h1 {
+	text-transform: uppercase;
+	line-height: 50px;
+}
+
+.main .body p {
+	line-height: 30px;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.buttons button {
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 15px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+.buttons button:first-child {
+	background: #ffffff;
+	color: crimson;
+}
+
+.buttons button:first-child:hover {
+	background: crimson;
+	color: #ffffff;
+}
+
+.buttons button:last-child {
+	background: crimson;
+	color: #ffffff;
+}
+
+.buttons button:last-child:hover {
+	background: #ffffff;
+	color: crimson;
+}
+
+
+
+/* ---------- about ------------*/
+.about {
+	width: 100%;
+	padding: 50px 0;
+}
+
+.about .parent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about .parent .left {
+	width: 45%;
+}
+
+.about .parent .left .head {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.about .parent .left .head h1 {
+	font-style: italic;
+	font-size: 35px;
+	color: black;
+	width: 100%;
+}
+
+.about .parent .left .head h1 span {
+	color: crimson;
+}
+
+.about .parent .left .content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.about .parent .left .content p {
+	font-size: 20px;
+	line-height: 30px;
+	color: gray;
+}
+
+.about .parent .left .content button {
+	border: 1px solid crimson;
+	outline: none;
+	border-radius: 8px;
+	padding: 15px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.3s all;
+	background: crimson;
+	color: #ffffff;
+}
+
+.about .parent .left .content button:hover {
+	background: #ffffff;
+	color: crimson;
+}
+
+.about .parent .right {
+	width: 45%;
+}
+
+.about .parent .right img {
+	width: 100%;
+	transform: skew(-8deg);
+}
