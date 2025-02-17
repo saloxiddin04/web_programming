@@ -213,3 +213,81 @@ nav {
 	width: 100%;
 	transform: skew(-8deg);
 }
+
+
+/* ---------- service ------------*/
+.service {
+	width: 100%;
+	padding: 50px 0;
+	background: grey;
+	color: #ffffff;
+}
+
+.service .head {
+	color: #ffffff;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+
+.service .head span {
+	color: red;
+}
+
+.service .body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.service .body .content {
+	width: 25%;
+}
+
+.service .body .content .top {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.service .body .content .top h1 {
+	font-size: 20px;
+}
+
+.service .body .content .top i {
+	font-size: 20px;
+}
+
+.service .body .content .bottom p {
+	line-height: 25px;
+}
+
+.service .body .btn {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.service .body .btn button {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background: transparent;
+	outline: none;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.service .body .btn button:hover {
+	color: red;
+	background: #ffffff;
+}
+
+
