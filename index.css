@@ -291,3 +291,76 @@ nav {
 }
 
 
+/* ---------- shop ------------*/
+.shop {
+	width: 100%;
+	padding: 50px 0;
+}
+
+.shop .head {
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.shop .head span {
+	color: red;
+}
+
+.shop .tabs {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.shop .tabs a {
+	text-decoration: none;
+	color: black;
+}
+
+.shop .tabs a.active {
+	color: red;
+}
+
+.shop .products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+}
+
+.shop .products .product {
+	position: relative;
+	width: 23%;
+}
+
+.shop .products .product img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.shop .products .product .price {
+	position: absolute;
+	padding: 5px 15px;
+	left: 15%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+	background: red;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.shop .products .product h1 {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	color: grey;
+	font-size: 22px;
+	font-weight: normal;
+}
+
