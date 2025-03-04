@@ -364,3 +364,45 @@ nav {
 	font-weight: normal;
 }
 
+/* ---------- skills ------------*/
+.skills {
+	width: 100%;
+	margin: 10px auto;
+	padding: 60px 20px;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.8),
+		rgba(0, 0, 0, 0.8)
+	),
+	url("./images/bg2.png") no-repeat center center;
+}
+
+.skills .body {
+	width: 100%;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skills .body .content {
+	width: 24%;
+	text-align: center;
+}
+
+.skills .body .content .top i {
+	color: crimson;
+	font-size: 40px;
+}
+
+.skills .body .content .top h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.skills .body .content .bottom {
+	margin-top: 8px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
