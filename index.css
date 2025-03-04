@@ -595,3 +595,29 @@ nav {
 	width: 10%;
 	object-fit: cover;
 }
+
+.borders {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	padding: 15px 0;
+}
+
+.borders .border1 {
+	width: 10px;
+	height: 3px;
+	background: crimson;
+}
+
+.borders .border2 {
+	width: 20px;
+	height: 3px;
+	background: crimson;
+}
+
+.borders .border3 {
+	width: 40px;
+	height: 3px;
+	background: black;
+}
