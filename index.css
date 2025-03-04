@@ -567,3 +567,31 @@ nav {
 	left: 10%;
 	z-index: 9;
 }
+
+/* ---------- partners ------------*/
+.partners {
+	padding: 100px 0;
+}
+
+.partners .head {
+	color: black;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+
+.partners .head span {
+	color: red;
+}
+
+.partners .images {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.partners .images img {
+	width: 10%;
+	object-fit: cover;
+}
