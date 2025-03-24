@@ -699,6 +699,64 @@ footer .content .center .center-right ul li a:hover {
 	color: #ffffff;
 }
 
+footer .content .center .right ul {
+	list-style: none;
+}
+
+footer .content .center .right ul li {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+footer .content .center .right .top {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+footer .content .center .right .top .left {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	width: 100%;
+}
+
+footer .content .center .right .rectangle {
+	width: 35px;
+	height: 35px;
+	background: #000000;
+	border-radius: 50%;
+}
+
+footer .content .center .right .top .left h3 {
+	color: crimson;
+	font-weight: 700;
+}
+
+footer .content .center .right .top .text {
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+footer .content .center .bottom {
+	margin-top: 10px;
+}
+
+footer .content .center .bottom h3 {
+	color: #cccccc;
+	margin-bottom: 10px;
+}
+
+footer .content .center .bottom .users {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
 footer .content .center .left,
 footer .content .center .center-left,
 footer .content .center .center-right,
