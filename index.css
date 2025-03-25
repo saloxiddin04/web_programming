@@ -623,9 +623,9 @@ nav {
 }
 
 /* ---------- footer ------------*/
-footer {
+footer .top:first-child {
 	background: #7c7c7c;
-	padding: 50px 0;
+	padding: 30px 0;
 }
 
 footer .content .center {
@@ -755,6 +755,47 @@ footer .content .center .bottom .users {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 10px;
+}
+
+footer .content .center .bottom button {
+	width: 100%;
+	background: crimson;
+	color: #cccccc;
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+footer .footer-bottom {
+	padding: 20px 0;
+	width: 100%;
+	background: crimson;
+	color: white;
+}
+
+footer .footer-bottom .items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .footer-bottom .left,
+footer .footer-bottom .right,
+footer .footer-bottom .center {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	font-size: 25px;
+}
+
+footer .footer-bottom .left,
+footer .footer-bottom .right,
+footer .footer-bottom .center {
+	width: 15%;
 }
 
 footer .content .center .left,
